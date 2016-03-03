@@ -20,6 +20,9 @@ class CKEditorAsset extends AssetBundle
 {
     public $js = [
         'ckeditor.js',
+        'plugins/exercise/plugin.js',
+        'plugins/test/plugin.js',
+        'plugins/sliders/plugin.js',
         'adapters/jquery.js'
     ];
     public $depends = [

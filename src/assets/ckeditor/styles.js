@@ -1,5 +1,5 @@
 ﻿/**
- * Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
+ * Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
@@ -30,6 +30,22 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Preformatted Text',element: 'pre' },
 	{ name: 'Address',			element: 'address' },
 	*/
+	{ name: 'H1',				element: 'h1', attributes: { 'class': 'article-h1' } },
+	{ name: 'H2',				element: 'h2', attributes: { 'class': 'article-h2' } },
+	{ name: 'H3',				element: 'h3', attributes: { 'class': 'article-h3' } },
+	{ name: 'H4',				element: 'h4', attributes: { 'class': 'article-h4' } },
+	{ name: 'H5',				element: 'h5', attributes: { 'class': 'article-h5' } },
+	{ name: 'H6',				element: 'h6', attributes: { 'class': 'article-h6' } },
+	{ name: 'div style-1',		element: 'div', attributes: { 'class': 'stile-1' } },
+	{ name: 'div style-2',		element: 'div', attributes: { 'class': 'stile-2' } },
+	{ name: 'div style-3',		element: 'div', attributes: { 'class': 'stile-3' } },
+	{ name: 'div style-4',		element: 'div', attributes: { 'class': 'stile-4' } },
+	{ name: 'div style-5',		element: 'div', attributes: { 'class': 'stile-5' } },
+	{ name: 'div style-6',		element: 'div', attributes: { 'class': 'stile-6' } },
+	{ name: 'div style-7',		element: 'div', attributes: { 'class': 'stile-7' } },
+	{ name: 'div style-8',		element: 'div', attributes: { 'class': 'stile-8' } },
+	{ name: 'div style-9',		element: 'div', attributes: { 'class': 'stile-9' } },
+	{ name: 'div style-10',		element: 'div', attributes: { 'class': 'stile-10' } },
 
 	{ name: 'Italic Title',		element: 'h2', styles: { 'font-style': 'italic' } },
 	{ name: 'Subtitle',			element: 'h3', styles: { 'color': '#aaa', 'font-style': 'italic' } },
